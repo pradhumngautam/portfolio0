@@ -4,13 +4,14 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   name: "Pradhumn Gautam",
   initials: "PG",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://dub.sh/pradhumn",
+  location: "New Delhi, India",
+  locationLink: "sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Software Engineer, Building seamless web solutions and passionate in machine learning.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I'm Pradhumn Gautam a Full Stack Developer from India. Passionate about Software Development, Cloud Engineering, Backend Systems & Open-Source Softwares.I'm currently an undergraduate, pursuing Computer Science majors with Specialization in Artificial Intelligence and Data Science from New Delhi, India. I am passionate about creating not just functional, but also aesthetically pleasing and intuitive user interfaces, ensuring a seamless user experience.",
+
   avatarUrl: "/me.png",
   skills: [
     "React",
