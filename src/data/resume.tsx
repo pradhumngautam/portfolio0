@@ -232,12 +232,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Eventie",
+      href: "https://eventie-uv1b-5uk3fta6w-pradhumn-gautams-projects.vercel.app/",
+      dates: "Event Management",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Streamlining event planning with comprehensive platform.Effortless event management with creating, ticketing and managing events.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -252,13 +252,13 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://eventie-uv1b-5uk3fta6w-pradhumn-gautams-projects.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/eventie.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
   ],
 } as const;
