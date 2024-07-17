@@ -12,7 +12,7 @@ export const DATA = {
   summary:
     "I'm Pradhumn Gautam a Full Stack Developer from India. Passionate about Software Development, Cloud Engineering, Backend Systems & Open-Source Softwares.I'm currently an undergraduate, pursuing Computer Science majors with Specialization in Artificial Intelligence and Data Science from New Delhi, India. I am passionate about creating not just functional, but also aesthetically pleasing and intuitive user interfaces, ensuring a seamless user experience.",
 
-  avatarUrl: "/me.png",
+  avatarUrl: "/mee.png",
   skills: [
     "React",
     "Next.js",
