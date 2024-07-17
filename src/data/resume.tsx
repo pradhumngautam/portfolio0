@@ -148,10 +148,11 @@ export const DATA = {
         "Hono.js",
         "Prisma",
         "PostgreSQL",
-        "Connection - pooling",
+        "Cloudflare",
         "Custom hooks",
         "TailwindCSS",
         "ShadcnUI",
+    
       ],
       links: [
         {
@@ -207,30 +208,28 @@ export const DATA = {
       description:
         "SWIFT SPEND is a banking app which enables user to transfer money to other users. Backend involves RESTful APIs and custom token-based authentication for secure access control including the password hashing through bCrypt, sessions are used for making transactions for controlling multiple transfer requests on same account.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Javascript",
+        "Node.js",
+        "Express.js",
+        "Mongoose",
+        "MongoDB",
+        "JWT",
+        "bCrypt",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://paytm-gules.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/pradhumngautam/paytm",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/swift.jpeg",
+      video: "",
     },
     {
       title: "Automatic Chat",
