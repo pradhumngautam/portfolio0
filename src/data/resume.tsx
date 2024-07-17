@@ -133,40 +133,45 @@ export const DATA = {
       start: "2022",
       end: "2026",
     },
-    
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Medium",
+      href: "https://medium-self-beta.vercel.app/",
+      dates: "Blogging website",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Medium is a blogging website which allows user to do CRUD operations on their blogs. Hono.js library of wrangler is used here for writing backend server which is hosted on cloudflare workers, connection-pooling is used for maintaining postgress requests.",
       technologies: [
-        "Next.js",
         "Typescript",
-        "PostgreSQL",
+        "React.js",
+        "Hono.js",
         "Prisma",
+        "PostgreSQL",
+        "Connection - pooling",
+        "Custom hooks",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "ShadcnUI",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://medium-self-beta.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/pradhumngautam/medium",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
+      image: "/medium.jpeg",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
+      title: "Portfolio",
+      href: "https://pradhumngautam.vercel.app/",
       dates: "June 2023 - Present",
       active: true,
       description:
